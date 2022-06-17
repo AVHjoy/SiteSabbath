@@ -7,11 +7,13 @@ body {
 h1 {
     font-size: 50px;
     color: purple;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
     font-family:'Tulpen One', cursive;
 }
 h2 {
     font-family: 'Tulpen One', sans-serif;
     font-size: 40px;
+    text-shadow: 5px 5px 5px purple;
     color: white;
 }
 header#cabecalho img#icone{
@@ -45,5 +47,5 @@ nav#menu li{
     border-radius: 20px;
 }
 nav#menu a:hover {
-    color: black;
+    color: #606060;
 }
