@@ -24,6 +24,9 @@ header#cabecalho img#icone{
     top: 150px;
 }
 nav#menu {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
     font-size: 35px;
     display:block;
 }    
@@ -36,10 +39,6 @@ nav#menu a{
     color: white;
 }
 nav#menu li{
-    position: relative;
-    top: 400px;
-    left: -30px;
-    margin-left: 10px;
     display: inline;
     text-transform:uppercase;
     background-color: rgba(214, 14, 154, 0.3);

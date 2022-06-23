@@ -26,11 +26,6 @@ nav#menu li{
 nav#menu a:hover {
     color: black;
 }
-body {
-    font-family: 'Trebuchet MS', sans-serif;
-    font-size: 17px;
-    background-color: #946679;
-}
 h1 {
     margin-top: -5px;
     font-size: 50px;
@@ -45,26 +40,45 @@ h2 {
     text-shadow: 1px 1px 1px rgba(187, 187, 187, 0.6);
     color: black;
 }
-p {
-    margin-top: -30px;
-    position: relative;
-    text-align: justify;
-    text-indent: 20px;
-    color: white;
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    background-color: #cecece;
 }
-section#corpo {
-    display: block;
-    width: 550px;
+table, th, td {
+    margin-left: 150px;
+    margin-top: 50px;
+    border: 0.5px solid purple;
+    border-collapse: collapse;
+    padding: 5px;
 }
-aside#lateral img{
-    position: absolute;
-    border-radius: 50px;
-    margin-left: 590px;
-    margin-top: -450px;
+tr {
+    font-family: 'Times New Roman', Times, serif;
+}
+tr#titulo {
+    color: purple;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bold;
 }
 footer#rodape {
-    position: relative;
     text-align: right;
-    margin-top: 50px;
+    margin-top: 90px;
     margin-right: 20px;
+}
+.fileira {
+    margin-left: 650px;
+    margin-top: -410px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.coluna {
+    flex:50%;
+    padding:0 4px;
+}
+.coluna img {
+    width: 150px;
+    height: 150px;
+
 }
